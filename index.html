@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://static.jmlk.co/scripts/dist/jmlink.min.js"></script>
+</head>
+
+<body>
+  <a id="btnOpenApp">打开APP</a>
+  <script>
+    new JMLink({
+      jmlink: 'https://bd5wab.jmlk.co/AAyZ',
+      button: document.querySelector('#btnOpenApp'),
+      inapp: true,
+      params: {
+        name: 'zs'
+      }
+    });
+  </script>
+</body>
+
+</html>
